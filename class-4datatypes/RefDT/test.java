@@ -1,9 +1,10 @@
-class test {
+class Test {
     public static void main(String[] args) {
-        int[] sizes = { 38, 40, 42, 44 };
-        System.out.println(sizes);
-        for (int size : sizes){
-            System.out.println(size);
+        String[] enames = { "Rahul", "Sonia", "Priyanka" };
+        System.out.println(enames);
+
+        for (String ename : enames) {
+            System.out.println(ename);
         }
     }
 }
