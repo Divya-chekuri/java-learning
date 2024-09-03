@@ -1,6 +1,7 @@
 class TestLocal {
 
-    public static void main(String[] args) {
+    public static void main
+    (String[] args) {
         int a = 100;
         System.out.println(a);
     }
